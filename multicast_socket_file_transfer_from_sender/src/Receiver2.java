@@ -1,0 +1,16 @@
+import java.io.*;
+import java.net.*;
+
+public class Receiver2 {
+	public static void main(String[]args)throws Exception{
+	    // TODO Auto-generated method stub
+	   MulticastSocket m = new MulticastSocket(9999);
+	    InetAddress add = InetAddress.getByName("224.1.1.1");
+	    m.joinGroup(add);
+	    byte[] bi = new byte[2000];
+	    FileOutputStream fo = new FileOutputStream("D://Receiver2.txt");
+	   DatagramPacket dp=new DatagramPacket(bi,bi.length);
+	    m.receive(dp);
+	   fo.write(bi);
+	}
+}

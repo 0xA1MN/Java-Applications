@@ -1,0 +1,5 @@
+package udp_socket_data_transfer_one_way;
+
+public class ClientUDP {
+
+}

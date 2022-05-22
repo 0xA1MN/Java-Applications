@@ -1,0 +1,5 @@
+package tcp_socket_one_way;
+
+public class Server {
+
+}

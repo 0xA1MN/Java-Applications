@@ -1,0 +1,5 @@
+package multicast_socket_data_transfer_from_sender;
+
+public class Sender {
+
+}

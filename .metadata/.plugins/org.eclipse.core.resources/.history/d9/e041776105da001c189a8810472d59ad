@@ -1,0 +1,8 @@
+package tcp_socket_two_way;
+
+public class Snippet {
+	public static void main(String[] args) {
+		tcp_socket_one_way
+	}
+}
+
